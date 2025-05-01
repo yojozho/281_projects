@@ -1,0 +1,11 @@
+Deploying troops...
+General 5's battalion attacked General 6's battalion on planet 9. 34 troops were lost.
+General 2's battalion attacked General 4's battalion on planet 6. 12 troops were lost.
+General 9's battalion attacked General 4's battalion on planet 8. 72 troops were lost.
+General 1's battalion attacked General 8's battalion on planet 4. 24 troops were lost.
+Median troops lost on planet 4 at time 0 is 24.
+Median troops lost on planet 6 at time 0 is 12.
+Median troops lost on planet 8 at time 0 is 72.
+Median troops lost on planet 9 at time 0 is 34.
+General 6's battalion attacked General 4's battalion on planet 0. 20 troops were lost.
+General 2's battalion attacked General 4's battalion on planet 8. 62 troops were lost.

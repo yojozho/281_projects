@@ -1,0 +1,71 @@
+CREATE 281class 3 string string bool emotion person Y/N
+INSERT INTO 281class 6 ROWS
+stressed Paoletti true
+happy Darden true
+sad Angstadt false
+weird Joyce true
+sad Joyce true
+embarrassed Garret false
+CREATE pets 3 string bool bool Name likes_cats? likes_dogs?
+INSERT INTO pets 4 ROWS
+Garret true true
+Joyce true false
+Jim false false
+Amanda true true
+CREATE cities 5 string string int double bool name state population area is_capital?
+INSERT INTO cities 7 ROWS
+Ann_Arbor Michigan 120782 28.69 false
+Lansing Michigan 116020 36.68 true
+Miami Florida 453579 55.25 false
+San_Francisco California 864816 46.87 false
+Albany New_York 98111 21.93 true
+Chicago Illinois 2705000 234 false
+St_Louis Missouri 315685 65.98 false
+GENERATE FOR 281class hash INDEX ON person
+GENERATE FOR pets bst INDEX ON Name
+GENERATE FOR cities hash INDEX ON population
+PRINT FROM 281class 1 Y/N WHERE emotion > happy
+PRINT FROM 281class 2 Y/N emotion WHERE person > Paoletti
+JOIN 281class and pets WHERE Y/N = likes_cats? AND PRINT 1 Name 2
+JOIN 281class and pets WHERE person = Name AND PRINT 1 likes_cats? 2
+INSERT INTO cities 7 ROWS
+Ann_Arbor Michigan 120782 28.69 false
+Lansing Michigan 116020 36.68 true
+Miami Florida 453579 55.25 false
+San_Francisco California 864816 46.87 false
+Albany New_York 98111 21.93 true
+Chicago Illinois 2705000 234 false
+St_Louis Missouri 315685 65.98 false
+GENERATE FOR cities bst INDEX ON is_capital?
+PRINT FROM cities 2 state population WHERE area < 20.00
+PRINT FROM cities 2 state population WHERE area > 20.00
+JOIN cities and 281class WHERE name = person AND PRINT 1 is_capital? 1
+DELETE FROM cities WHERE is_capital? = true
+DELETE FROM cities WHERE is_capital? = false
+PRINT FROM cities 1 population WHERE is_capital? = true
+PRINT FROM cities 2 area population WHERE is_capital? > true
+INSERT INTO cities 7 ROWS
+Ann_Arbor Michigan 120782 28.69 false
+Lansing Michigan 116020 36.68 true
+Miami Florida 453579 55.25 false
+San_Francisco California 864816 46.87 false
+Albany New_York 98111 21.93 true
+Chicago Illinois 2705000 234 false
+St_Louis Missouri 315685 65.98 false
+PRINT FROM cities 2 area population WHERE is_capital? = true
+INSERT INTO 281class 6 ROWS
+stressed Paoletti true
+happy Darden true
+sad Angstadt false
+weird Joyce true
+sad Joyce true
+embarrassed Garret false
+DELETE FROM 281class WHERE Y/N = true
+DELETE FROM 281class WHERE Y/N = false
+PRINT FROM 281class 1 Y/N WHERE person > Darden
+PRINT FROM 281class 1 Y/N WHERE person = Darden
+JOIN cities and pets WHERE is_capital? = likes_dogs? AND PRINT 2 name 1 Name 2
+REMOVE 281class
+REMOVE pets
+REMOVE cities
+QUIT

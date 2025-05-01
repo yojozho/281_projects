@@ -1,0 +1,21 @@
+# Test file: # (comment), test all error outputs
+EAT seabass
+CREATE 281class 3 string string bool emotion person Y/N
+CREATE 281class 3 string string bool emotion person Y/N
+REMOVE pets
+INSERT INTO pets 3 ROWS
+PRINT FROM pets 2 name likes_dogs? ALL
+PRINT FROM 281class 2 emotions person ALL
+PRINT FROM 281class 2 emotions emotions ALL
+DELETE FROM pets WHERE likes_dogs? = false
+DELETE FROM 281class WHERE emotions = happy
+GENERATE FOR pets hash INDEX ON likes_dogs?
+GENERATE FOR 281class hash INDEX ON emotions
+JOIN pets AND 281class WHERE Name = person AND PRINT 3 Name 1 emotion 2 likes_dogs? 1
+CREATE pets 3 string bool bool Name likes_cats? likes_dogs?
+JOIN pets AND 281class WHERE Names = person AND PRINT 3 Name 1 emotion 2 likes_dogs? 1
+JOIN pets AND 281class WHERE Name = people AND PRINT 3 Name 1 emotion 2 likes_dogs? 1
+JOIN pets AND 281class WHERE Name = person AND PRINT 3 Names 1 Names 2 like_dogs? 1
+REMOVE pets
+REMOVE 281class
+QUIT

@@ -1,0 +1,51 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "fa950387119f2661aa29def91c54ea15bcff5f06d19b79c96ea0d55551775db5"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64h",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx11.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64h"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/yojozho/Desktop/eecs281/p4-pokemon/DerivedData/p4-pokemon/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/yojozho/Desktop/eecs281/p4-pokemon/DerivedData/p4-pokemon/Build/Products",
+      "derivedDataPath" : "/Users/yojozho/Desktop/eecs281/p4-pokemon/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/yojozho/Desktop/eecs281/p4-pokemon/DerivedData/p4-pokemon/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/yojozho/Desktop/eecs281/p4-pokemon/DerivedData/p4-pokemon/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/yojozho/Desktop/eecs281/p4-pokemon/DerivedData/p4-pokemon/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

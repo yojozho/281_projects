@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>D0210F9C-90FD-4C9B-BB68-86322DE52842</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D0210F9C-90FD-4C9B-BB68-86322DE52842.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>p3-sillyql project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>p3-sillyql</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build p3-sillyql</string>
+			<key>timeStartedRecording</key>
+			<real>701823987.15320396</real>
+			<key>timeStoppedRecording</key>
+			<real>701823987.77698195</real>
+			<key>title</key>
+			<string>Build p3-sillyql</string>
+			<key>uniqueIdentifier</key>
+			<string>D0210F9C-90FD-4C9B-BB68-86322DE52842</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

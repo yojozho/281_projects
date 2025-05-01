@@ -1,0 +1,65 @@
+# Test file: # (comment), test INSERT, GENERATE, and JOIN
+CREATE 281class 3 string string bool emotion person Y/N
+INSERT INTO 281class 3 ROWS
+stressed Paoletti true
+happy Darden true
+sad Angstadt false
+INSERT INTO 281class 3 ROWS
+stressed Paoletti true
+happy Darden true
+sad Angstadt false
+INSERT INTO 281class 3 ROWS
+stressed Paoletti true
+happy Darden true
+sad Angstadt false
+INSERT INTO 281class 3 ROWS
+stressed Paoletti true
+happy Darden true
+sad Angstadt false
+INSERT INTO 281class 3 ROWS
+stressed Paoletti true
+happy Darden true
+sad Angstadt false
+INSERT INTO 281class 3 ROWS
+stressed Paoletti true
+happy Darden true
+sad Angstadt false
+GENERATE FOR 281class hash INDEX ON person
+PRINT FROM 281class 3 Y/N emotion person ALL
+PRINT FROM 281class 3 Y/N emotion person WHERE person = Joyce
+PRINT FROM 281class 3 Y/N emotion person WHERE person < Joyce
+PRINT FROM 281class 3 Y/N emotion person WHERE person > Joyce
+INSERT INTO 281class 3 ROWS
+stressed Paoletti true
+happy Darden true
+sad Angstadt false
+INSERT INTO 281class 3 ROWS
+stressed Paoletti true
+happy Darden true
+sad Angstadt false
+PRINT FROM 281class 3 emotion person Y/N ALL
+CREATE pets 3 string bool bool Name likes_cats? likes_dogs?
+INSERT INTO pets 3 ROWS
+Paoletti true true
+Darden false true
+Angstadt true true
+GENERATE FOR pets bst INDEX ON likes_dogs?
+PRINT FROM pets 3 likes_cats? likes_dogs? Name ALL
+PRINT FROM pets 3 likes_cats? likes_dogs? Name WHERE likes_dogs? = true
+PRINT FROM pets 3 likes_cats? likes_dogs? Name WHERE likes_dogs? < true
+PRINT FROM pets 3 likes_cats? likes_dogs? Name WHERE likes_dogs? > true
+DELETE FROM pets WHERE likes_dogs? = true
+INSERT INTO pets 3 ROWS
+Paoletti true true
+Darden true true
+Angstadt true true
+GENERATE FOR 281class bst INDEX ON emotion
+JOIN 281class and pets WHERE Y/N = likes_cats? AND PRINT 1 Name 2
+DELETE FROM pets WHERE likes_cats = true
+JOIN 281class and pets WHERE Y/N = likes_cats? AND PRINT 1 Name 2
+GENERATE FOR 281class hash INDEX ON Y/N
+JOIN 281class and pets WHERE Y/N = likes_cats? AND PRINT 1 Name 2
+JOIN pets and 281class WHERE Name = person AND PRINT 2 likes_dogs? 1 emotion 2
+REMOVE 281class
+REMOVE pets
+QUIT

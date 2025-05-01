@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>6FC50CC3-706B-494B-8D0A-81961C4F75F5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6FC50CC3-706B-494B-8D0A-81961C4F75F5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>p4-pokemon project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>p4-pokemon</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build p4-pokemon</string>
+			<key>timeStartedRecording</key>
+			<real>703460814.675969</real>
+			<key>timeStoppedRecording</key>
+			<real>703460814.751073</real>
+			<key>title</key>
+			<string>Build p4-pokemon</string>
+			<key>uniqueIdentifier</key>
+			<string>6FC50CC3-706B-494B-8D0A-81961C4F75F5</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

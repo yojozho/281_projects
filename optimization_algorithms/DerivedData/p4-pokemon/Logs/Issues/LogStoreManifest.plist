@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>ED2A81A4-9705-4234-9456-6A8C5D51D38D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
+			<key>fileName</key>
+			<string>ED2A81A4-9705-4234-9456-6A8C5D51D38D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>p4-pokemon-hhfnpewektkytteymsprejrxnxov</string>
+			<key>timeStartedRecording</key>
+			<real>703460814.74226403</real>
+			<key>timeStoppedRecording</key>
+			<real>703460814.74245298</real>
+			<key>title</key>
+			<string>Build target p4-pokemon</string>
+			<key>uniqueIdentifier</key>
+			<string>ED2A81A4-9705-4234-9456-6A8C5D51D38D</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>

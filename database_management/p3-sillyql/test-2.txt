@@ -1,0 +1,20 @@
+# Test file: # (comment), test DELETE, PRINT ... ALL, and JOIN
+CREATE cities 5 string string int double bool name state population area is_capital?
+INSERT INTO cities 8 ROWS
+Ann_Arbor Michigan 120782 28.69 false
+Lansing Michigan 116020 36.68 true
+Miami Florida 453579 55.25 false
+San_Francisco California 864816 46.87 false
+Albany New_York 98111 21.93 true
+Chicago Illinois 2705000 234 false
+St_Louis Missouri 315685 65.98 false
+Ann_Arbor Michigan 120782 28.69 false
+DELETE FROM cities WHERE name = Ann_Arbor
+PRINT FROM cities 2 state name WHERE state = Michigan
+DELETE FROM cities WHERE population > 200000
+PRINT FROM cities 1 population ALL
+DELETE FROM cities WHERE area < 30.00
+PRINT FROM cities 2 state area ALL
+REMOVE cities
+QUIT
+

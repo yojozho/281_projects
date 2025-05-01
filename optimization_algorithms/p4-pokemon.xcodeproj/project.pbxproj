@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E67B580529E4C6D2007627D6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E67B580429E4C6D2007627D6 /* main.cpp */; };
+		E67B582B29E650A0007627D6 /* simulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E67B582929E650A0007627D6 /* simulation.cpp */; };
+		E67B582E29E65851007627D6 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = E67B582D29E65851007627D6 /* Makefile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E67B57FF29E4C6D2007627D6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E67B580129E4C6D2007627D6 /* p4-pokemon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "p4-pokemon"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E67B580429E4C6D2007627D6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E67B580B29E4C727007627D6 /* spec-test-MST-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "spec-test-MST-out.txt"; sourceTree = "<group>"; };
+		E67B580C29E4C727007627D6 /* sample-e-FASTTSP-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-e-FASTTSP-out.txt"; sourceTree = "<group>"; };
+		E67B580D29E4C727007627D6 /* sample-ab.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-ab.txt"; sourceTree = "<group>"; };
+		E67B580F29E4C727007627D6 /* spec-test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "spec-test.txt"; sourceTree = "<group>"; };
+		E67B581029E4C727007627D6 /* sample-f-debug-output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-f-debug-output.txt"; sourceTree = "<group>"; };
+		E67B581129E4C727007627D6 /* sample-c-MST-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-c-MST-out.txt"; sourceTree = "<group>"; };
+		E67B581229E4C727007627D6 /* sample-e-OPTTSP-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-e-OPTTSP-out.txt"; sourceTree = "<group>"; };
+		E67B581329E4C727007627D6 /* spec-test-OPTTSP-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "spec-test-OPTTSP-out.txt"; sourceTree = "<group>"; };
+		E67B581429E4C727007627D6 /* sample-e-MST-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-e-MST-out.txt"; sourceTree = "<group>"; };
+		E67B581529E4C727007627D6 /* sample-e-debug-output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-e-debug-output.txt"; sourceTree = "<group>"; };
+		E67B581629E4C727007627D6 /* sample-d-OPTTSP-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-d-OPTTSP-out.txt"; sourceTree = "<group>"; };
+		E67B581729E4C727007627D6 /* sample-f-MST-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-f-MST-out.txt"; sourceTree = "<group>"; };
+		E67B581829E4C727007627D6 /* sample-f-OPTTSP-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-f-OPTTSP-out.txt"; sourceTree = "<group>"; };
+		E67B581929E4C728007627D6 /* genPerms.cpp.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = genPerms.cpp.txt; sourceTree = "<group>"; };
+		E67B581A29E4C728007627D6 /* sample-f-FASTTSP-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-f-FASTTSP-out.txt"; sourceTree = "<group>"; };
+		E67B581B29E4C728007627D6 /* sample-e.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-e.txt"; sourceTree = "<group>"; };
+		E67B581C29E4C728007627D6 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		E67B581D29E4C728007627D6 /* spec-test-FASTTSP-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "spec-test-FASTTSP-out.txt"; sourceTree = "<group>"; };
+		E67B581E29E4C728007627D6 /* sample-ab-FASTTSP-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-ab-FASTTSP-out.txt"; sourceTree = "<group>"; };
+		E67B581F29E4C728007627D6 /* sample-f.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-f.txt"; sourceTree = "<group>"; };
+		E67B582029E4C728007627D6 /* sample-c-OPTTSP-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-c-OPTTSP-out.txt"; sourceTree = "<group>"; };
+		E67B582129E4C728007627D6 /* sample-d-MST-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-d-MST-out.txt"; sourceTree = "<group>"; };
+		E67B582229E4C728007627D6 /* sample-ab-MST-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-ab-MST-out.txt"; sourceTree = "<group>"; };
+		E67B582329E4C728007627D6 /* sample-d-FASTTSP-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-d-FASTTSP-out.txt"; sourceTree = "<group>"; };
+		E67B582429E4C728007627D6 /* sample-c-FASTTSP-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-c-FASTTSP-out.txt"; sourceTree = "<group>"; };
+		E67B582529E4C728007627D6 /* sample-c.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-c.txt"; sourceTree = "<group>"; };
+		E67B582629E4C728007627D6 /* sample-d.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-d.txt"; sourceTree = "<group>"; };
+		E67B582729E4C728007627D6 /* Error_messages.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Error_messages.txt; sourceTree = "<group>"; };
+		E67B582929E650A0007627D6 /* simulation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = simulation.cpp; sourceTree = "<group>"; };
+		E67B582A29E650A0007627D6 /* simulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simulation.h; sourceTree = "<group>"; };
+		E67B582D29E65851007627D6 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		E67B583029EE0049007627D6 /* test-1-MST.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "test-1-MST.txt"; sourceTree = "<group>"; };
+		E67B583129EE38E1007627D6 /* test-2-MST.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "test-2-MST.txt"; sourceTree = "<group>"; };
+		E67B583229EE3935007627D6 /* test-3-MST.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "test-3-MST.txt"; sourceTree = "<group>"; };
+		E67B583329EE39D2007627D6 /* test-4-MST.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "test-4-MST.txt"; sourceTree = "<group>"; };
+		E67B583529EE3A8B007627D6 /* test-5-FASTTSP.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "test-5-FASTTSP.txt"; sourceTree = "<group>"; };
+		E67B583629EE3AD3007627D6 /* test-6-FASTTSP.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "test-6-FASTTSP.txt"; sourceTree = "<group>"; };
+		E67B583729EE3B0D007627D6 /* test-7-OPTTSP.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "test-7-OPTTSP.txt"; sourceTree = "<group>"; };
+		E67B583829EE3B31007627D6 /* test-8-OPTTSP.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "test-8-OPTTSP.txt"; sourceTree = "<group>"; };
+		E67B583929EE3B6C007627D6 /* test-9-OPTTSP.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "test-9-OPTTSP.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E67B57FE29E4C6D2007627D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E67B57F829E4C6D2007627D6 = {
+			isa = PBXGroup;
+			children = (
+				E67B580329E4C6D2007627D6 /* p4-pokemon */,
+				E67B580229E4C6D2007627D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E67B580229E4C6D2007627D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E67B580129E4C6D2007627D6 /* p4-pokemon */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E67B580329E4C6D2007627D6 /* p4-pokemon */ = {
+			isa = PBXGroup;
+			children = (
+				E67B582D29E65851007627D6 /* Makefile */,
+				E67B582729E4C728007627D6 /* Error_messages.txt */,
+				E67B581929E4C728007627D6 /* genPerms.cpp.txt */,
+				E67B581C29E4C728007627D6 /* README.txt */,
+				E67B581E29E4C728007627D6 /* sample-ab-FASTTSP-out.txt */,
+				E67B582229E4C728007627D6 /* sample-ab-MST-out.txt */,
+				E67B580D29E4C727007627D6 /* sample-ab.txt */,
+				E67B582429E4C728007627D6 /* sample-c-FASTTSP-out.txt */,
+				E67B581129E4C727007627D6 /* sample-c-MST-out.txt */,
+				E67B582029E4C728007627D6 /* sample-c-OPTTSP-out.txt */,
+				E67B582529E4C728007627D6 /* sample-c.txt */,
+				E67B582329E4C728007627D6 /* sample-d-FASTTSP-out.txt */,
+				E67B582129E4C728007627D6 /* sample-d-MST-out.txt */,
+				E67B581629E4C727007627D6 /* sample-d-OPTTSP-out.txt */,
+				E67B582629E4C728007627D6 /* sample-d.txt */,
+				E67B581529E4C727007627D6 /* sample-e-debug-output.txt */,
+				E67B580C29E4C727007627D6 /* sample-e-FASTTSP-out.txt */,
+				E67B581429E4C727007627D6 /* sample-e-MST-out.txt */,
+				E67B581229E4C727007627D6 /* sample-e-OPTTSP-out.txt */,
+				E67B581B29E4C728007627D6 /* sample-e.txt */,
+				E67B581029E4C727007627D6 /* sample-f-debug-output.txt */,
+				E67B581A29E4C728007627D6 /* sample-f-FASTTSP-out.txt */,
+				E67B581729E4C727007627D6 /* sample-f-MST-out.txt */,
+				E67B581829E4C727007627D6 /* sample-f-OPTTSP-out.txt */,
+				E67B581F29E4C728007627D6 /* sample-f.txt */,
+				E67B581D29E4C728007627D6 /* spec-test-FASTTSP-out.txt */,
+				E67B580B29E4C727007627D6 /* spec-test-MST-out.txt */,
+				E67B581329E4C727007627D6 /* spec-test-OPTTSP-out.txt */,
+				E67B580F29E4C727007627D6 /* spec-test.txt */,
+				E67B580429E4C6D2007627D6 /* main.cpp */,
+				E67B582929E650A0007627D6 /* simulation.cpp */,
+				E67B582A29E650A0007627D6 /* simulation.h */,
+				E67B583029EE0049007627D6 /* test-1-MST.txt */,
+				E67B583129EE38E1007627D6 /* test-2-MST.txt */,
+				E67B583229EE3935007627D6 /* test-3-MST.txt */,
+				E67B583329EE39D2007627D6 /* test-4-MST.txt */,
+				E67B583529EE3A8B007627D6 /* test-5-FASTTSP.txt */,
+				E67B583629EE3AD3007627D6 /* test-6-FASTTSP.txt */,
+				E67B583729EE3B0D007627D6 /* test-7-OPTTSP.txt */,
+				E67B583829EE3B31007627D6 /* test-8-OPTTSP.txt */,
+				E67B583929EE3B6C007627D6 /* test-9-OPTTSP.txt */,
+			);
+			path = "p4-pokemon";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E67B580029E4C6D2007627D6 /* p4-pokemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E67B580829E4C6D2007627D6 /* Build configuration list for PBXNativeTarget "p4-pokemon" */;
+			buildPhases = (
+				E67B57FD29E4C6D2007627D6 /* Sources */,
+				E67B57FE29E4C6D2007627D6 /* Frameworks */,
+				E67B57FF29E4C6D2007627D6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "p4-pokemon";
+			productName = "p4-pokemon";
+			productReference = E67B580129E4C6D2007627D6 /* p4-pokemon */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E67B57F929E4C6D2007627D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E67B580029E4C6D2007627D6 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = E67B57FC29E4C6D2007627D6 /* Build configuration list for PBXProject "p4-pokemon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E67B57F829E4C6D2007627D6;
+			productRefGroup = E67B580229E4C6D2007627D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E67B580029E4C6D2007627D6 /* p4-pokemon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E67B57FD29E4C6D2007627D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E67B582E29E65851007627D6 /* Makefile in Sources */,
+				E67B580529E4C6D2007627D6 /* main.cpp in Sources */,
+				E67B582B29E650A0007627D6 /* simulation.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E67B580629E4C6D2007627D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E67B580729E4C6D2007627D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E67B580929E4C6D2007627D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E67B580A29E4C6D2007627D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E67B57FC29E4C6D2007627D6 /* Build configuration list for PBXProject "p4-pokemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E67B580629E4C6D2007627D6 /* Debug */,
+				E67B580729E4C6D2007627D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E67B580829E4C6D2007627D6 /* Build configuration list for PBXNativeTarget "p4-pokemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E67B580929E4C6D2007627D6 /* Debug */,
+				E67B580A29E4C6D2007627D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E67B57F929E4C6D2007627D6 /* Project object */;
+}
